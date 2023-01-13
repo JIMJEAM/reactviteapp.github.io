@@ -1,0 +1,56 @@
+.contenedorTexto{
+    width: 15em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin: 2em;
+    text-align: center;
+    transition: all 0.258s;
+    background-color: rgb(7, 7, 7);
+  }
+
+  .contenedorCajas
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 767.98px) { 
+  .contenedorCajas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+  }
+}
+
+  .contenedorTexto:hover {
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+  .contenedorImagen {
+    width: 100%;
+    height: 9em;
+  }
+
+.contenedorTitulo {
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 0.5em;
+}
+
+.contenedorParrafo {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em;
+}
